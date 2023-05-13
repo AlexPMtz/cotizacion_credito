@@ -42,7 +42,6 @@ const patchProduct = async(req,res)=>{
     let {idProduct} = req.params
     let product = await Product.findByIdAndUpdate(idProduct,{$set:{name,price}},{new:true})
     res.status(200).send({product}); 
-
   } catch (error) {
     res.status(500).send({error:error.message});
   }
