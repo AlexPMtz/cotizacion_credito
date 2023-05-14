@@ -5,17 +5,16 @@ const Product = require("../models/Product");
 const createProduct = async(req, res) => {
 
   const {
-    SKU,
     name,
     price
   } = req.body
 
   let newProduct = new Product();
 
-  newProduct.SKU = SKU;
+  newProduct.SKU = "GS0" + Math.floor(Math.random() * 100);;
   newProduct.name = name;
   newProduct.price = price;
-
+  
   try {
     let productSaved = await newProduct.save();
     res.status(201).send({ product: productSaved });
@@ -38,8 +37,8 @@ const patchProduct = async(req,res)=>{
     const {
       name,
       price
-    } = req.body
-    let {idProduct} = req.params
+    } = req.body;
+    let {idProduct} = req.params;
     let product = await Product.findByIdAndUpdate(idProduct,{$set:{name,price}},{new:true})
     res.status(200).send({product}); 
   } catch (error) {
