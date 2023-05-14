@@ -6,10 +6,10 @@ const Deadline = new Schema({
   weeks: {
     type: Number
   },
-  normalPass: {
+  normalRate: {
     type: Number
   },
-  punctualPass: {
+  punctualRate: {
     type: Number
   }
 

@@ -11,8 +11,8 @@ const createDeadline = async(req,res) => {
   let newDeadline = new Deadline();
 
   newDeadline.weeks = weeks;
-  newDeadline.normalPass = (0.08638333 * weeks).toFixed(4);
-  newDeadline.punctualPass = (0.07469166 * weeks).toFixed(4);
+  newDeadline.normalRate = (0.08638333 * weeks).toFixed(4);
+  newDeadline.punctualRate = (0.07469166 * weeks).toFixed(4);
 
   try {
     let deadlineSaved = await newDeadline.save();
