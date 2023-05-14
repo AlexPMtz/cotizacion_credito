@@ -3,7 +3,10 @@ const Schema = mongoose.Schema;
 
 const Credit = new Schema({
 
-  quote: {
+  normalPass: {
+    type: Number
+  },
+  punctualPass: {
     type: Number
   },
   idProduct: {
