@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+const uniquieValidator = require("mongoose-unique-validator")
 
 const Product = new Schema({
 
@@ -15,4 +16,5 @@ const Product = new Schema({
 
 })
 
+Product.plugin(uniquieValidator,  { message: 'must be unique' });
 module.exports = mongoose.model("Product", Product);
