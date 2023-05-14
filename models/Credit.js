@@ -9,9 +9,12 @@ const Credit = new Schema({
   punctualPass: {
     type: Number
   },
-  idProduct: {
+  weeks: {
+    type: Number
+  },
+  productId: {
     type: Schema.Types.ObjectId,
-    ref: "product"
+    ref: "Product"
   }
 
 })
