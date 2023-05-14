@@ -4,6 +4,7 @@ const app = express();
 
 const productRoutes = require("./endpoints/product");
 const userRoutes = require("./endpoints/user");
+const deadlineRoutes = require("./endpoints/deadline");
 
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
@@ -17,5 +18,6 @@ app.use((req,res,next)=>{
 
 app.use("/products", productRoutes);
 app.use("/users", userRoutes);
+app.use("/deadlines", deadlineRoutes);
 
 module.exports = app;
