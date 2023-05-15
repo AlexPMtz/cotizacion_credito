@@ -2,9 +2,9 @@
 
 ## Herramientas tecnológicas
 
-* Express:
-  Es un framework web, escrito en JavaScript y alojado dentro del entorno de ejecución NodeJS. Ofrece el sistema de enrutamiento y características simplificadas para ampliar el framework con componentes y partes más potentes en función de los casos de uso de tu aplicación.
-  * Node.js:
+* **Express:** Es un framework web, escrito en JavaScript y alojado dentro del entorno de ejecución NodeJS. Ofrece el sistema de enrutamiento y características simplificadas para ampliar el framework con componentes y partes más potentes en función de los casos de uso de tu aplicación.
+  * **Node.js:** Es un entorno que trabaja en tiempo de ejecución, que permite a los desarrolladores crear toda clase de herramientas de lado servidor y aplicaciones en JavaScript.
+  * **MONGO DB:** Es una base de datos NoSQL orientada a documentos. A diferencia de una base de datos relacional SQL tradicional, MongoDB no se basa en tablas y columnas. Los datos se almacenan como colecciones y documentos.
 
 ## API REST 
 
