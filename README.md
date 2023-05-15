@@ -2,8 +2,9 @@
 
 ## Herramientas tecnológicas
 
-* Express
+* Express:
   * Es un framework web, escrito en JavaScript y alojado dentro del entorno de ejecución NodeJS. Ofrece el sistema de enrutamiento y características simplificadas para ampliar el framework con componentes y partes más potentes en función de los casos de uso de tu aplicación.
+  * Node.js:
 
 ## API REST 
 
