@@ -23,4 +23,8 @@ La API tiene distintos endpoints:
   * **getProducts:** Devuelve una lista en formato JSON de los productos existentes.
   * **patchProduct:** Actualiza un elemento en la Base de datos, pasándole el ID del producto y los campos que queremos editar.
   * **deleteProduct:** Elimina un elemento en la Base de datos, pasándole el ID del producto.
-  
+
+
+## Ejercicios bonus
+
+Existe un archivo llamado **Bonus.js** en el cual tengo los ejercicios que se pidieron en la prueba. Basta con clonar el repositorio y ejecutar el comando **node** y el nombre del archivo (Bonus.js)
