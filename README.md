@@ -7,7 +7,7 @@ API que funciona como sistema de cotización de créditos, en base a un producto
 La API tiene distintos endpoints:
 
 * Credit
-  * createQuote
+  * createQuote: Crea una una cotización de crédito, en la cual debemos de mandar el plazo, la tasa normal y puntual, precio del producto y el id del porducto.
   * getQuote
 * Deadline
   * createDeadline
